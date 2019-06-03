@@ -1,0 +1,29 @@
+{
+  "name": "heracles",
+  "version": "1.0.0-rc.14",
+  "description": "TypeScript client for the Ory Hydra OAuth 2.0/OIDC server.",
+  "main": "index.js",
+  "repository": "https://github.com/dkushner/heracles",
+  "author": "David Kushner <root@davidkushner.me>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@octokit/rest": "^16.27.0",
+    "@openapitools/openapi-generator-cli": "^0.0.11-4.0.0-beta3",
+    "@types/blessed": "^0.1.11",
+    "@types/semver": "^6.0.0",
+    "blessed": "^0.1.81",
+    "openapi-codegen": "^1.5.5",
+    "semver": "^6.1.1",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1",
+    "vorpal": "^1.12.0",
+    "vorpal-less": "^0.0.13"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
