@@ -1,8 +1,8 @@
 {
-  "name": "heracles",
+  "name": "ory-heracles",
   "version": "1.0.0-rc.14",
   "description": "TypeScript client for the Ory Hydra OAuth 2.0/OIDC server.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/dkushner/heracles",
   "author": "David Kushner <root@davidkushner.me>",
   "license": "MIT",
